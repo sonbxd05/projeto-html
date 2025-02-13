@@ -22,28 +22,10 @@ body{
     border-radius: 50%;
     border: 5px solid white;
     
-}
-.foto{
-  text-align: right;
-  margin-top: -135PX;
-  padding: 9PX;  
-}
-
-ul{
-    padding: 20px;
     
 }
 
-li{
-    list-style-position: inside;
-}
 
-a{
-    text-decoration: none;
-}
-a:hover{
-    text-decoration: underline;
-}
 
 .menu{
    text-align: center;
