@@ -1,47 +1,49 @@
 body{
+    background-image: url(imagem/fitclass.webp);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    width: 1100px;
     
-    margin: 10px;
+    margin: auto;
     background-color: bisque;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
+
 .titulo{
-    background-color: rgb(46, 37, 23);
+    background-image: url(imagem/logo1.avif );
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 220px;
+    width: 220px;
     text-align: center;
-    padding: 30px;
-    margin: -10px;
-  
-    color: aliceblue;
-
-    
-}
-
-
-#foto{
-    height: 200px;
-    height: 200px;
-    border-radius: 50%;
+    color: rgb(14, 12, 12);
     border: 5px solid white;
+    border-radius: 50%
     
     
 }
+.titulo a{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px;
+    padding: 16px;
 
 
 
 .menu{
-   text-align: center;
-   background-color: black;
-   margin: -10px;
-   margin-top: -17px;
-
-   
-}
-
-h1{
-    padding-top: 19px;
-}
-h2{
+    text-align: center;
+    padding-top: 20px;
+    background-color: black;
+    margin-left: -500PX;
+    margin-right: -500px;
     
 }
+
+
+h1{
+    padding-top: 40px;
+}
+
 
 .menu li{
     
@@ -52,12 +54,44 @@ h2{
     padding: 0px;
 }
 .menu a{
-
+    color: wheat;
     padding: 16px ;
     display: inline-block;
 }
 .menu a:hover{
    
-    color: white;
+    color: rgb(250, 248, 248);
     text-decoration: none;
+}
+
+#motivacao1{
+    color: aliceblue;
+}
+#motivacao2{
+    color: aliceblue;
+}
+
+#forte{
+    float: left;
+    height: 300px;
+    height: 300px;
+    border-radius:50%;
+    border: 5px solid wheat;
+}
+
+#forte1{
+    height: 300px;
+    height: 300px;
+    border-radius:10%;
+    border: 5px solid wheat;
+    float: right;
+}
+#motivacao1{
+    line-height: 2;
+    text-align: justify;
+}
+
+#motivacao2{
+    line-height: 2;
+    text-align: justify;
 }
